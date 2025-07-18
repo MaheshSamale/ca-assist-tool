@@ -1,0 +1,147 @@
+/* Wrapper and card styling */
+.client-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f4ff, #dbeafe);
+  padding: 80px 20px 40px;
+  box-sizing: border-box;
+}
+
+.client-card {
+  background-color: white;
+  padding: 40px;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.client-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+/* Search input */
+.search-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #1e40af;
+}
+
+.edit-link {
+  color: #2563eb;
+  margin-right: 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.edit-link:hover {
+  text-decoration: underline;
+}
+
+.delete-btn {
+  background-color: #dc2626;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+/* Table layout */
+.table-container {
+  overflow-x: auto;
+}
+
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.client-table th,
+.client-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  font-size: 15px;
+}
+
+.client-table th {
+  background-color: #f0f4fa;
+  font-weight: bold;
+}
+
+.client-table tr:hover {
+  background-color: #f9fafb;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .client-card {
+    padding: 24px;
+  }
+
+  .search-input {
+    font-size: 14px;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+  }
+  
+
+  .client-table th,
+  .client-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
