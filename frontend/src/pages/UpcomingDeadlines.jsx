@@ -29,7 +29,7 @@ export default function UpcomingDeadlines() {
       <div className="deadline-card">
         <h2>Upcoming Deadlines</h2>
 
-        <div className="table-container">
+        <div className="table-containerd">
           <table className="deadline-table">
             <thead>
               <tr>
