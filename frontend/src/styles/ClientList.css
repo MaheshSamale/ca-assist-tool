@@ -1,4 +1,3 @@
-/* Wrapper and card styling */
 .client-wrapper {
   min-height: 100vh;
   width: 100vw;
@@ -26,7 +25,6 @@
   color: #1f2937;
 }
 
-/* Search input */
 .search-input {
   width: 100%;
   padding: 12px;
@@ -37,7 +35,6 @@
   box-sizing: border-box;
 }
 
-/* Buttons */
 .action-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -86,10 +83,14 @@
   background-color: #b91c1c;
 }
 
-/* Table layout */
-.table-container {
+.table-containerc {
+  max-height: 350px; /* Adjust height as needed */
+  overflow-y: auto;
   overflow-x: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
+
 
 .client-table {
   width: 100%;
@@ -120,7 +121,6 @@
   color: #777;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .client-card {
     padding: 24px;
@@ -135,9 +135,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
- 
   }
-  
 
   .client-table th,
   .client-table td {
