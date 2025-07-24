@@ -25,9 +25,14 @@
   color: #1f2937;
 }
 
-.table-container {
+.table-containerd {
+  max-height: 400px;
+  overflow-y: auto;
   overflow-x: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
+
 
 .deadline-table {
   width: 100%;
