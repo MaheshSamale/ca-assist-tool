@@ -71,7 +71,7 @@ export default function ClientList() {
           <Link to="/add" className="button">Add Client</Link>
         </div>
 
-        <div className="table-container">
+        <div className="table-containerc">
           <table className="client-table">
             <thead>
               <tr>
